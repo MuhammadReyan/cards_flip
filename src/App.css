@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body {
+  overflow-x: hidden;
+  background: #ffffff url(data:image/jpeg;base64,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) no-repeat center center;
+  background-size: contain;
+  background-attachment: fixed;
+  margin-top: 5%;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.bodyofcards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+
+}
+
+.singlecard {
+
+  width: 300px;
+  background-color: rgba(255, 255, 255, 80%);
+  text-align: center;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 15px;
+  /* margin: 10px; */
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 80%);
+  transition: all .5s;
+}
+
+.singlecard:hover {
+  background-color: rgba(223, 55, 21, 0.8);
+  color: white;
+}
